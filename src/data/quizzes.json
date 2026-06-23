@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Which word starts with 'C'?",
+      "options": ["Cat", "Dog", "Fish", "Sun"],
+      "answer": "Cat",
+      "emoji": "🔤"
+    },
+    {
+      "id": 2,
+      "question": "What sound does 'B' make?",
+      "options": ["/b/ like Ball", "/d/ like Dog", "/s/ like Sun", "/m/ like Moon"],
+      "answer": "/b/ like Ball",
+      "emoji": "🔊"
+    },
+    {
+      "id": 3,
+      "question": "Which word starts with 'S'?",
+      "options": ["Dog", "Sun", "Bat", "Hat"],
+      "answer": "Sun",
+      "emoji": "🔤"
+    },
+    {
+      "id": 4,
+      "question": "Which word ends with '-AT'?",
+      "options": ["Sun", "Dog", "Cat", "Pen"],
+      "answer": "Cat",
+      "emoji": "🎯"
+    },
+    {
+      "id": 5,
+      "question": "What is the first letter of 'Fish'?",
+      "options": ["B", "F", "P", "S"],
+      "answer": "F",
+      "emoji": "🔤"
+    },
+    {
+      "id": 6,
+      "question": "Which word starts with 'D'?",
+      "options": ["Cat", "Sun", "Dog", "Hat"],
+      "answer": "Dog",
+      "emoji": "🔤"
+    },
+    {
+      "id": 7,
+      "question": "What sound does 'A' make?",
+      "options": ["/æ/ like Apple", "/b/ like Ball", "/k/ like Cat", "/d/ like Dog"],
+      "answer": "/æ/ like Apple",
+      "emoji": "🔊"
+    },
+    {
+      "id": 8,
+      "question": "Which word has 3 letters?",
+      "options": ["Fish", "Dog", "Apple", "Queen"],
+      "answer": "Dog",
+      "emoji": "🔢"
+    },
+    {
+      "id": 9,
+      "question": "Which word rhymes with 'CAT'?",
+      "options": ["Dog", "Sun", "Hat", "Fish"],
+      "answer": "Hat",
+      "emoji": "🎵"
+    },
+    {
+      "id": 10,
+      "question": "What is the last letter of 'SUN'?",
+      "options": ["S", "U", "N", "A"],
+      "answer": "N",
+      "emoji": "🔤"
+    },
+    {
+      "id": 11,
+      "question": "Which word starts with 'H'?",
+      "options": ["Cat", "Dog", "Sun", "Hat"],
+      "answer": "Hat",
+      "emoji": "🔤"
+    },
+    {
+      "id": 12,
+      "question": "Which animal says 'Moo'? It starts with 'C'.",
+      "options": ["Cat", "Cow", "Dog", "Fish"],
+      "answer": "Cow",
+      "emoji": "🐄"
+    },
+    {
+      "id": 13,
+      "question": "Which word rhymes with 'PEN'?",
+      "options": ["Cat", "Sun", "Hen", "Dog"],
+      "answer": "Hen",
+      "emoji": "🎵"
+    },
+    {
+      "id": 14,
+      "question": "What letter comes after 'D' in the alphabet?",
+      "options": ["A", "B", "C", "E"],
+      "answer": "E",
+      "emoji": "🔤"
+    },
+    {
+      "id": 15,
+      "question": "Which word starts with 'F'?",
+      "options": ["Cat", "Dog", "Fish", "Hat"],
+      "answer": "Fish",
+      "emoji": "🔤"
+    }
+  ]
+}

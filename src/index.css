@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Nunito', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-violet-50 via-pink-50 to-yellow-50 min-h-screen;
+    overscroll-behavior: none;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-violet-500 to-purple-600 text-white font-bold py-4 px-8 rounded-2xl
+           shadow-lg shadow-violet-300 hover:shadow-xl hover:scale-105 active:scale-95
+           transition-all duration-200 text-xl cursor-pointer select-none;
+  }
+
+  .btn-secondary {
+    @apply bg-gradient-to-r from-pink-400 to-rose-500 text-white font-bold py-4 px-8 rounded-2xl
+           shadow-lg shadow-pink-300 hover:shadow-xl hover:scale-105 active:scale-95
+           transition-all duration-200 text-xl cursor-pointer select-none;
+  }
+
+  .card {
+    @apply bg-white rounded-3xl shadow-lg p-6 border-2 border-white/50 backdrop-blur-sm;
+  }
+
+  .letter-card {
+    @apply card hover:scale-105 hover:shadow-xl active:scale-95
+           transition-all duration-200 cursor-pointer select-none;
+  }
+
+  .quiz-option {
+    @apply bg-white border-3 border-gray-200 rounded-2xl p-4 text-center font-bold text-lg
+           hover:border-violet-400 hover:bg-violet-50 active:scale-95
+           transition-all duration-200 cursor-pointer select-none;
+  }
+
+  .quiz-option-correct {
+    @apply bg-green-100 border-green-400 text-green-700;
+  }
+
+  .quiz-option-wrong {
+    @apply bg-red-100 border-red-400 text-red-700;
+  }
+
+  .star {
+    @apply text-yellow-400 text-2xl;
+  }
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4b5fd;
+  border-radius: 10px;
+}
+
+/* Border-3 utility */
+.border-3 {
+  border-width: 3px;
+}
+
+/* Prevent text selection on interactive elements */
+.select-none {
+  user-select: none;
+  -webkit-user-select: none;
+}
